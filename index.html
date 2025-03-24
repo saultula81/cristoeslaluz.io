@@ -323,7 +323,7 @@ function initAudio() {
   audioContext = new (window.AudioContext || window.webkitAudioContext)();
   audioElement = new Audio();
   audioElement.crossOrigin = "anonymous";
-  audioElement.src = "http://stream.zeno.fm/mfer4shs398uv";
+  audioElement.src = "https://stream.zeno.fm/mfer4shs398uv";
   
   source = audioContext.createMediaElementSource(audioElement);
   analyzer = audioContext.createAnalyser();
